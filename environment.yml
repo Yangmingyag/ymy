@@ -1,0 +1,15 @@
+name: robot_team
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26
+  - pyyaml
+  - pyserial
+  - opencv
+  - matplotlib
+  - pip:
+    - torch
+    - leRobot  # 如果比赛官方要求装，就留着；否则先注释掉
